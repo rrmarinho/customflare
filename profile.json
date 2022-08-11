@@ -1,0 +1,87 @@
+{
+    "env": {
+        "VM_COMMON_DIR": "%ProgramData%\\FEVM",
+        "TOOL_LIST_DIR": "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\FLARE",
+        "TOOL_LIST_SHORTCUT": "%UserProfile%\\Desktop\\FLARE.lnk",
+        "RAW_TOOLS_DIR": "%SystemDrive%\\Tools",
+        "TEMPLATE_DIR": "flarevm.installer.flare"
+    },
+    "packages": [
+        {"name": "dotnetfx"},
+        {"name": "powershell"},
+        {"name": "vcbuildtools.fireeye"},
+        {"name": "cmder.fireeye"},
+
+        {
+            "name": "python2.x86.nopath.flare",
+            "x64Only": true,
+            "args": "--package-parameters \'/InstallDir:C:\\Python27.x86\'"
+        },
+        {"name": "libraries.python2.fireeye"},
+        {"name": "libraries.python3.fireeye"},
+
+        {"name": "x64dbg.flare"},
+        {"name": "x64dbg.py.flare"},
+        {"name": "x64dbg.ollydumpex.fireeye"},
+
+        {"name": "scdbg.flare"},
+
+
+        {"name": "idafree70.flare", "x64Only": true},
+        {"name": "idafree.flare"},
+
+        {"name": "ilspy.flare"},
+        {"name": "dnspy.flare"},
+        {"name": "dotpeek.flare"},
+        {"name": "de4dot.flare"},
+        {"name": "dnsd.flare"},
+        {"name": "rundotnetdll.flare"},
+
+
+        {"name": "hxd.flare"},
+
+        {"name": "peid.flare"},
+        {"name": "explorersuite.flare"},
+        {"name": "peview.flare"},
+        {"name": "die.flare"},
+        {"name": "pestudio.flare"},
+        {"name": "processdump.fireeye"},
+
+        {"name": "notepadplusplus.flare"},
+
+        {"name": "7zip.flare"},
+        {"name": "putty"},
+        {"name": "wireshark.flare"},
+        {"name": "nmap.flare"},
+        {"name": "winpcap"},
+        {"name": "rawcap"},
+        {"name": "upx"},
+        {"name": "processhacker.flare"},
+        {"name": "sysinternals.flare"},
+        {"name": "apimonitor.flare"},
+        {"name": "hashcalc.flare"},
+        {"name": "hashmyfiles.flare"},
+        {"name": "regshot.flare"},
+        {"name": "ncat.flare"},
+        {"name": "shellcode_launcher.flare"},
+        {"name": "xorsearch.flare"},
+        {"name": "xorstrings.flare"},
+        {"name": "yara.flare"},
+        {"name": "kmdloader.flare"},
+        {"name": "googlechrome.flare"},
+        {"name": "procdot.fireeye"},
+
+        {"name": "offvis.flare"},
+        {"name": "officemalscanner.flare"},
+        {"name": "oledump.fireeye"},
+        {"name": "rtfdump.fireeye"},
+        {"name": "msoffcrypto-crack.fireeye"},
+        {"name": "oletools.fireeye"},
+
+        {"name": "pdfid.flare"},
+        {"name": "pdfparser.flare"},
+        {"name": "pdfstreamdumper.flare"},
+
+
+    ]
+}
